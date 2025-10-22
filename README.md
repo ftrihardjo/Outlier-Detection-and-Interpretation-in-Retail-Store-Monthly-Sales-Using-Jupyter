@@ -11,11 +11,6 @@ store_nbr identifies the store at which the products are sold.
 family identifies the type of product sold.
 sales gives the total sales for a product family at a particular store at a given date. Fractional values are possible since products can be sold in fractional units (1.5 kg of cheese, for instance, as opposed to 1 bag of chips).
 onpromotion gives the total number of items in a product family that were being promoted at a store at a given date.
-#### test.csv
-The test data, having the same features as the training data. You will predict the target sales for the dates in this file.
-The dates in the test data are for the 15 days after the last date in the training data.
-#### sample_submission.csv
-A sample submission file in the correct format.
 #### stores.csv
 Store metadata, including city, state, type, and cluster.
 cluster is a grouping of similar stores.
