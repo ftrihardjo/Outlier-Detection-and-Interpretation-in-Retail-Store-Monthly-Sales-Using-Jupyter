@@ -1,5 +1,11 @@
 # Outlier Detection and Interpretation in Retail Store Monthly Sales Using Jupyter
 
+## Project Overview
+A clothing store chain is looking to identify and analyze unexpected increases and decreases in their monthly sales data from different locations to gain insights into performance irregularities. The Jupyter Notebook **analysis.ipynb** is designed to detect statistical outliers in sales patterns across various stores, offering clear visualizations and straightforward explanations to assist store managers and data analysts in recognizing unusual trends for specific months.
+
+## Setup
+Create a virtual environment then run the cells in **analysis.ipynb** sequentially.
+
 ## Data Acquisition
 ### Dataset Description
 The dataset is sourced from https://www.kaggle.com/competitions/store-sales-time-series-forecasting/data and contains information for the thousands of product families sold at Favorita stores located in Ecuador. It includes dates, store and product information, whether that item was being promoted, as well as the sales numbers. Additional files include supplementary information.
